@@ -1,6 +1,38 @@
-# Vue 3 + Vite
+# Esteban Fuentealba CV written Vue 3 + Vite + TailwindCSS
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Setup
+
+To initilize the project clone first:
+
+```sh
+git clone git@github.com:ark4n631/vue-cv.git
+cd vue-cv
+```
+
+Then install npm dependencies you should use `node-lts`:
+
+```sh
+npm install
+```
+
+## Start
+
+Then you can start the dev server with:
+
+```sh
+npm run dev
+```
+
+
+## Build
+
+In order to build it will output to `dist` folder:
+
+```sh
+npm run build
+```
+
+
 
 ## Recommended IDE Setup
 
