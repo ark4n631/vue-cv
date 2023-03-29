@@ -6,13 +6,14 @@ import diplomaLogo from '../assets/diploma.svg'
 import Home from './Home.vue'
 import NotFound from './NotFound.vue'
 import Navbar from './Navbar.vue'
-import WorkingHistory from './WorkingHistory.vue'
 import Stack from './Stack.vue'
 import Education from './Education.vue'
+import WorkHistory from './WorkHistory.vue'
+
 
 const routes = {
   '/': Home,
-  '/workinghistory': WorkingHistory,
+  '/workhistory': WorkHistory,
   '/technologies': Stack,
   '/education': Education
 }
@@ -23,9 +24,9 @@ const routeMap = {
     href: '#/',
     logo: arrowDownLeftLogo
   },
-  '/workinghistory': {
-    name: 'Working History',
-    href: '#/workinghistory',
+  '/workhistory': {
+    name: 'Work History',
+    href: '#/workhistory',
     logo: timerquarterLogo
   },
   '/technologies': {
@@ -67,6 +68,6 @@ export default {
 </script>
 
 <template>
-    <Navbar :items="routes" :activeComponent="currentUrl" showMenu="true" />
+    <Navbar :items="routes" :activeComponent="currentUrl" />
   <component :is="currentView" />
 </template>

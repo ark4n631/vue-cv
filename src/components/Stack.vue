@@ -1,29 +1,29 @@
 <template>
-    <div class="container mx-auto">
-        <div class="my-10 inline">
-            <div class="text-center text-3xl font-semibold text-cyan-700">Technologies</div>
+    <div class="container mx-auto flex flex-auto flex-wrap justify-left">
+        <div class="my-2 flex-row mx-5 basis-full">
+            <div class="text-center text-xl lg:text-3xl font-semibold text-cyan-700">Technologies</div>
         </div>
-        <div class="my-10 relative bg-neutral-100 p-3 align-top inline-block mx-5">
-            <div class="text-left text-2xl font-semibold text-cyan-800 my-2"> Back-end </div>
+        <div class="my-2 flex-row bg-neutral-100 p-5 align-top mx-2">
+            <div class="text-left text-lg lg:text-2xl font-semibold text-cyan-800 my-2"> Back-end </div>
             <ul class="list-disc ml-10 my-1" v-for="tech in backend">
                 <TechnologyPoint :tech="tech" />
             </ul>
         </div>
-        <div class="my-10 relative bg-neutral-100 p-3 align-top inline-block mx-5">
-            <div class="text-left text-2xl font-semibold text-cyan-800 my-2"> Front-end </div>
+        <div class="my-2 flex-row bg-neutral-100 p-5 align-top mx-2">
+            <div class="text-left text-lg lg:text-2xl font-semibold text-cyan-800 my-2"> Front-end </div>
             <ul class="list-disc ml-10 my-1" v-for="tech in frontend">
                 <TechnologyPoint :tech="tech" />
             </ul>
         </div>
-        <div class="my-10 relative bg-neutral-100 p-3 align-top inline-block mx-5">
-            <div class="text-left text-2xl font-semibold text-cyan-800 my-2"> Cloud Services </div>
+        <div class="my-2 flex-row bg-neutral-100 p-5 align-top mx-2">
+            <div class="text-left text-lg lg:text-2xl font-semibold text-cyan-800 my-2"> Cloud Services </div>
             <ul class="list-disc ml-10 my-1" v-for="tech in cloud">
                 <TechnologyPoint :tech="tech" />
             </ul>
         </div>
-        <div class="my-10 relative bg-neutral-100 p-3 align-top inline-block mx-5">
-            <div class="text-left text-2xl font-semibold text-cyan-800 my-2"> DevOps </div>
-            <ul class="list-disc ml-10 my-1" v-for="tech in devops">
+        <div class="my-2 flex-row bg-neutral-100 p-5 align-top mx-2">
+            <div class="text-left text-lg lg:text-2xl font-semibold text-cyan-800 my-2"> DevOps </div>
+            <ul class="list-disc ml-10 my-1 flex-wrap inline-flex" v-for="tech in devops">
                 <TechnologyPoint :tech="tech" />
             </ul>
         </div>

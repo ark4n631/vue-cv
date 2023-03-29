@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto">
+    <div class="mx-5 flex-row">
         <div class="my-10 inline">
             <div class="text-center text-3xl font-bold text-cyan-700">Overview</div>
         </div>

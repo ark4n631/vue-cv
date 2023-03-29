@@ -1,9 +1,9 @@
 <template>
     <div class="container mx-auto">
         <div class="mt-10 mb-10">
-            <div class="text-center text-3xl font-semibold text-sky-800">Working History</div>
+            <div class="text-center text-3xl font-semibold text-sky-800">Work History</div>
         </div>
-        <div v-for="job in workingHistory">
+        <div v-for="job in workingHistory" class="mx-5 my-5">
             <WorkCard :job="job" />
         </div>
         
