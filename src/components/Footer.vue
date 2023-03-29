@@ -1,5 +1,5 @@
 <template>
-    <div class="container flex">
+    <div class="container flex flex-row mx-auto">
         <div class="text-center basis-full">
             <Contact iconSize="h-6" :showText="false" />
             All rights reserved &copy; {{ new Date().getFullYear() }}
