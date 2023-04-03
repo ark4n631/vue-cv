@@ -37,8 +37,8 @@ export default {
                 company: "Pitchtape",
                 location: "New York, USA",
                 flag: usFlag,
-                startDate: "Dic 2020",
-                endDate: "Dic 2022",
+                startDate: "Dec 2020",
+                endDate: "Dec 2022",
                 title: "Lead Senior Software Engineer",
                 description: `
                 As a software developer, I successfully implemented a new version of the software, including Back-end, DevOps, and Front-end components. I also created a Kubernetes Helm recipe, which made installation and maintenance of the product easier in the cloud environment. 
@@ -66,7 +66,7 @@ export default {
                 flag: usFlag,
                 location: "New York, USA",
                 startDate: "Mar 2019",
-                endDate: "Dic 2020",
+                endDate: "Dec 2020",
                 title: "Senior Back-end Developer",
                 description: `
                 As a Python Developer, I developed and maintained a micro-service oriented Django API service that handled video content with encoding tasks using a queue in RabbitMQ. I used Python and Celery to create efficient and scalable services that met the needs of the project. 
